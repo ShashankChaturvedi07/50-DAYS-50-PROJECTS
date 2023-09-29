@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #c09654;
+    color: #fff;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.8rem 2.8rem;
+    text-align: center;
+}
+
+.counter {
+    font-size: 3.6rem;
+    margin-top: .8rem;
+}
+
+@media(max-width: 580px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+.counter-container #you:hover {
+    color: #CD201F;
+}
+
+.counter-container #insta:hover {
+    color:#e934ac ;
+}
+
+.counter-container #linkedin:hover {
+    color: #0072b1 ;
+}
