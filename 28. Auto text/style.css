@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    position: absolute;
+    bottom: 20px;
+    background: rgba(0,0,0,0.1);
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+input {
+    width: 50px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: blanchedalmond;
+    border: none;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+input:focus {
+    outline: none;
+}
+
+#text {
+    color: rgb(255, 0, 25); 
+}
